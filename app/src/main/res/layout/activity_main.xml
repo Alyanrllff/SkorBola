@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Skor untuk Tim A -->
+        <TextView
+            android:id="@+id/textViewScoreTeamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score A"
+            android:textSize="32sp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Tombol untuk menambah skor Tim A -->
+        <Button
+            android:id="@+id/buttonAddTeamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Skor Tim A"/>
+
+        <!-- Skor untuk Tim B -->
+        <TextView
+            android:id="@+id/textViewScoreTeamB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skor B"
+            android:textSize="32sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Tombol untuk menambah skor Tim B -->
+        <Button
+            android:id="@+id/buttonAddTeamB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Skor Tim B"/>
+
+        <!-- Tombol untuk mereset skor -->
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Skor"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</layout>
